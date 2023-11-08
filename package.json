@@ -1,0 +1,22 @@
+{
+  "name": "browser-activity-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanesz/Browser-Activity-Tracker.git"
+  },
+  "keywords": [
+    "browser-activity-tracker"
+  ],
+  "author": "fanesz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fanesz/Browser-Activity-Tracker/issues"
+  },
+  "homepage": "https://github.com/fanesz/Browser-Activity-Tracker#readme"
+}
