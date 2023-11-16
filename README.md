@@ -1,4 +1,4 @@
-# [Browser Activity Tracker](https://www.npmjs.com/package/@fanesz/browser-activity-tracker) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/fanesz/browser-activity-tracker/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
+# [Browser Activity Tracker](https://www.npmjs.com/package/@fanesz/browser-activity-tracker) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/fanesz/browser-activity-tracker/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/fanesz/browser-activity-tracker)
 
 In accordance with its name, this is a module that contains functions to track whatever activities are carried out by the user.
 
