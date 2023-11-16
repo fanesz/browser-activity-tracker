@@ -4,6 +4,9 @@ In accordance with its name, this is a module that contains functions to track w
 
 The tracked activities are switching applications, changing browser tabs, mouse clicks, keyboard presses, and when the mouse enters/exits specific components.
 
+### Installation
+`npm i @fanesz/browser-activity-tracker`
+
 ## Usage
 ### Application and Browser Tab Tracker
 It is tracked when the user is not focused on the browser, such as when opening other applications, pressing the Windows key, using Alt-Tab to switch applications, changing browser tab, and so on.
