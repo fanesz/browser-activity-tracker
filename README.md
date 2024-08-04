@@ -1,11 +1,11 @@
-# [Browser Activity Tracker](https://www.npmjs.com/package/@fanesz/browser-activity-tracker) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/fanesz/browser-activity-tracker/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/fanesz/browser-activity-tracker)
+# [Browser Activity Tracker](https://www.npmjs.com/package/browser-activity-tracker) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/fanesz/browser-activity-tracker/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/fanesz/browser-activity-tracker)
 
 In accordance with its name, this is a module that contains functions to track whatever activities are carried out by the user.
 
 The tracked activities are switching applications, changing browser tabs, mouse clicks, keyboard presses, and when the mouse enters/exits specific components.
 
 ### Installation
-`npm i @fanesz/browser-activity-tracker`
+`npm i browser-activity-tracker`
 
 ## Usage
 ### Application and Browser Tab Tracker
@@ -13,7 +13,7 @@ It is tracked when the user is not focused on the browser, such as when opening 
 - Activites: `aplIn`, `aplOut`, `pagein`, `pageOut`
 ```jsx
 import { useState } from 'react';
-import { pageTracker } from "@fanesz/browser-activity-tracker"
+import { pageTracker } from "browser-activity-tracker"
 
 export default function App() {
   const [isStart, setIsStart] = useState(false);
@@ -54,7 +54,7 @@ It is tracked when the user press any key of the keyboard.
 - Activites: `{key} pressed`, `{key} released`
 ```jsx
 import { useState } from 'react';
-import { keyboardTracker } from "@fanesz/browser-activity-tracker"
+import { keyboardTracker } from "browser-activity-tracker"
 
 export default function App() {
   const [isStart, setIsStart] = useState(false);
@@ -89,7 +89,7 @@ It is tracked when user do a click, and moving in/out on specific component.
 - Activites: `mouseClick`, '
 ```jsx
 import { useState } from 'react';
-import { mouseTracker } from "@fanesz/browser-activity-tracker"
+import { mouseTracker } from "browser-activity-tracker"
 
 export default function App() {
   const [isStart, setIsStart] = useState(false);
@@ -128,7 +128,7 @@ export default function App() {
 ### Counting total Copy pressed (ctrl+c)
 ```jsx
 import { useEffect, useState } from 'react';
-import { keyboardTracker, totalCopy } from "@fanesz/browser-activity-tracker"
+import { keyboardTracker, totalCopy } from "browser-activity-tracker"
 
 export default function App() {
   const [isStart, setIsStart] = useState(false);
@@ -155,7 +155,7 @@ export default function App() {
 Because the tracker function return an array of object, you can import `TActivity` from the module.
 ```jsx
 import { useState } from 'react';
-import { keyboardTracker, TActivity } from "@fanesz/browser-activity-tracker"
+import { keyboardTracker, TActivity } from "browser-activity-tracker"
 
 export default function App() {
   const [isStart, setIsStart] = useState(false);
