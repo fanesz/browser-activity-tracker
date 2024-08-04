@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -37,7 +37,23 @@
   },
   "name": "browser-activity-tracker",
   "author": "fanesz",
-  "keywords": ["tracker", "browser tracker", "keyboard tracker", "mouse tracker", "copy tracker", "browser activity", "user tracker", "tracking", "browser tracking", "user tracking", "react", "monitor", "activity", "web app", "web application"],
+  "keywords": [
+    "tracker",
+    "browser tracker",
+    "keyboard tracker",
+    "mouse tracker",
+    "copy tracker",
+    "browser activity",
+    "user tracker",
+    "tracking",
+    "browser tracking",
+    "user tracking",
+    "react",
+    "monitor",
+    "activity",
+    "web app",
+    "web application"
+  ],
   "module": "dist/browser-activity-tracker.esm.js",
   "size-limit": [
     {
